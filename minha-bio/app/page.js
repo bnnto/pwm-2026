@@ -1,9 +1,4 @@
 import Image from "next/image";
-import Head from "next/head";
-
-<Head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</Head>
 
 export default function Home() {
   return (
