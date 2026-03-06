@@ -35,3 +35,22 @@ body{
 .texto p{
   font-size: 28px;
 }
+
+@media (max-width: 768px){
+
+  .quadrado{
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+  }
+
+  .quadrado img{
+    width: 100%;
+    height: auto;
+  }
+
+  .texto p{
+    font-size: 18px;
+  }
+
+}
