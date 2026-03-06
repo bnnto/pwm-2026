@@ -44,5 +44,13 @@ export default function Home() {
     <p id="plantas">Plantas</p>
     <p>Chrysobalanaceae é uma família de plantas angiospérmicas (plantas com flor -
       divisão Magnoliophyta), pertencente à ordem Malpighiales.</p>
+    <hr />
+    <form action="buscar.jsp" method="POST">
+      <input type="text" name="busca"></input>
+      <input type="submit" value="Procurar"></input>
+    </form>
+
+    <br /><input type="file" name="arquivo" accept="image/*"></input>
+
   </div>;
 }
