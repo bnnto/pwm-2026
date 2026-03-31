@@ -7,7 +7,16 @@ const headers = {
 }
 
 export const getTasks = async () => {
-    return await axios.get(urlBase, {
+    const { data } = await axios.get(urlBase, {
         headers,
     });
+
+    return data;
 };
+
+export const addTask = async () => {
+    const { data } = await axios.post(urlBase, newTask, {
+        headers: headersJson,   
+    });
+    console.log("retorno ")
+}
