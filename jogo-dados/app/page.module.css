@@ -244,11 +244,12 @@
 
   .rodada {
     font-size: 2rem;
+    margin-top: 16px;
   }
 
   .jogadores {
     gap: 16px;
-    padding-top: 24px;
+    padding-top: 16px;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -264,5 +265,12 @@
     width: 90vw;
     padding: 28px 20px;
     box-sizing: border-box;
+  }
+
+  .footer {
+    position: static;
+    margin-top: 32px;
+    padding-bottom: 16px;
+    font-size: 0.8rem;
   }
 }
